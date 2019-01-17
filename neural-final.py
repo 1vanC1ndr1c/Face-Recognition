@@ -186,9 +186,9 @@ def get_age_label(age):
 		vector[5] = 1
 	return vector
 
-#image_set = create_image_set()
+image_set = create_image_set()
 # Alternatively import image set
-image_set = np.load(IMAGESET_NAME)
+#image_set = np.load(IMAGESET_NAME)
 
 # Split data
 training_data = image_set[:TRAINING_END_INDEX]
